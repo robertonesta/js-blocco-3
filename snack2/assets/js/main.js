@@ -10,7 +10,7 @@ const characters = [
     "dAiSy dUcK"
 ]
 console.log(characters)
-const first_uppercase_letter = characters.map((character) =>{
-    return character[0].toUpperCase() + character.slice(1);
+const first_uppercase_letter = characters.map((character) => {
+    return character[0].toUpperCase() + character.slice(1).toLowerCase();
 })
 console.log(first_uppercase_letter)
