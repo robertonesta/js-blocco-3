@@ -73,6 +73,6 @@ const diesel_cars = cars.filter((car) => {
 console.log(diesel_cars);
 
 const other_cars = cars.filter((car) => {
-    return car["fuel"] != Gas && car["fuel"] != Diesel;
+    return car["fuel"] != "Gas" && car["fuel"] != "Diesel";
 })
 console.log(other_cars);
