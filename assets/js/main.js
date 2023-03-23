@@ -13,7 +13,7 @@ const cars = [
     {
         brand: "Bmw",
         model: "X5",
-        fuel: "Gas",
+        fuel: "Gas"
     },
     {
         brand: "Ferrari",
@@ -33,32 +33,32 @@ const cars = [
     {
         brand: "Tesla",
         model: "Model Y",
-        fuel: "electric"
+        fuel: "Electric"
     },
     {
         brand: "Seat",
         model: "Ibiza",
-        fuel: "methane"
+        fuel: "Methane"
     },
     {
         brand: "Skoda",
         model: "Octavia",
-        fuel: "methane"
+        fuel: "Methane"
     },
     {
         brand: "Audi",
         model: "e-tron GT",
-        fuel: "electric"
+        fuel: "Electric"
     },
     {
         brand: "Mini",
         model: "Cooper",
-        fuel: "diesel",
+        fuel: "Diesel"
     },
     {
         brand: "Mercedes-benz",
         model: "EQC",
-        fuel: "electric"
+        fuel: "Electric"
     }
 ]
 
