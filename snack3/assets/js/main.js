@@ -11,7 +11,7 @@ Crea un nuovo array con la lista dei mammiferi.*/
 
 //array animali
 
-const animals = [
+const animali = [
     { nome: 'leone',
      famiglia: 'felidi',
      classe: 'mammiferi'
@@ -28,6 +28,10 @@ const animals = [
     },
   ]
 
+const mammiferi = animali.filter((animale) => {
+    return animale["classe"] == "mammiferi"
+})
+console.log(mammiferi)
 
 
 
