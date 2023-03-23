@@ -11,6 +11,6 @@ const characters = [
 ]
 console.log(characters)
 const first_uppercase_letter = characters.map((character) => {
-    return character[0].toUpperCase() + character.slice(1).toLowerCase();
+    return character.charAt(0).toUpperCase() + character.slice(1).toLowerCase();
 })
 console.log(first_uppercase_letter)
